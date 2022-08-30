@@ -1,0 +1,2 @@
+com/example/a02180201041_finalproject/BuildConfig.java
+ com.example.a02180201041_finalproject.BuildConfig

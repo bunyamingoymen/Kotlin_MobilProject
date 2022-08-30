@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ana_renk"
+    tools:context=".messageFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Logo Seçiniz"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="209dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="102dp"
+                    android:layout_height="170dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rbtn1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="81dp"
+                        android:layout_height="96dp"
+                        android:src="@drawable/bg1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="101dp"
+                    android:layout_height="171dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rbtn2"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="97dp"
+                        android:layout_height="110dp"
+                        android:src="@drawable/bg3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="86dp"
+                    android:layout_height="154dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rbtn3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="88dp"
+                        android:layout_height="92dp"
+                        android:src="@drawable/bg2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="85dp"
+                    android:layout_height="163dp"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rbtn4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="98dp"
+                        android:layout_height="116dp"
+                        android:src="@drawable/bg4" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="İsim Giriniz"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/nameToast"
+            android:layout_width="288dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/createToastBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/turuncu"
+            android:text="TOAST MESAJI OLUŞTUR"
+            android:textSize="30dp"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ana_renk"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="49dp"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Giriş Ekranı"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <EditText
+            android:id="@+id/namePlainText"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="23dp"
+            android:ems="10"
+            android:hint="İsminizi Giriniz"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/schoolNumberNumberText"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="11dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:hint="Okul Numaranızı Giriniz"
+            android:inputType="number"
+            android:text="" />
+
+        <Switch
+            android:id="@+id/remember"
+            android:layout_width="167dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="26dp"
+            android:checked="true"
+            android:gravity="center|right"
+            android:text="Beni Hatırla"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+
+            android:layout_gravity="center"
+            android:layout_marginBottom="340dp"
+            android:backgroundTint="@color/ana_renk"
+            android:text="Giris Yap" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
